@@ -1,163 +1,262 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-  <meta charset="utf-8"/>
-  <title>Chatbot</title>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-  <div class="chatbot-app">
-    <div class="header-and-contact">
-      <header class="user-profile">
-        <div class="user-profile--picture">
-          <img src="https://pbs.twimg.com/profile_images/1338985026/Picture_1_400x400.png" alt="profil avatar"/>
+    <meta charset="utf-8" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div class="chatbot-app">
+      <div class="header-and-contact">
+        <header class="user-profile">
+          <div class="user-profile--picture">
+            <img
+              src="https://pbs.twimg.com/profile_images/1338985026/Picture_1_400x400.png"
+              alt="profil avatar"
+            />
+          </div>
+          <span class="user-profile--name">Tyrion Lannister</span>
+        </header>
+        <div class="searchAndContact">
+          <div class="contact-search-bar">
+            <input
+              class="textInputArea"
+              type="text"
+              name="message"
+              placeholder=" Search"
+              style="font-size: 15px"
+            />
+
+            <button type="submit" class="searchButton">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+              >
+                <path
+                  d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <nav class="user-contacts">
+            <ul>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+              <li>
+                <div class="user-contacts--items">
+                  <div class="user-contacts--items--avatar">
+                    <img
+                      src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg"
+                      alt="Contact avatar"
+                    />
+                  </div>
+                  <div class="user-contacts--items--name">Aria Stark</div>
+                </div>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <span class="user-profile--name">Tyrion Lannister</span>
-      </header>
-      <div class="contact-search-bar">
-          <input class="textInputArea" type="text" name=  "message" placeholder=" Search" style="font-size: 15px"/>
       </div>
-      <nav class="user-contacts">
-        <ul>
-          <li>
-           <div class="user-contacts--items">
-              <div class="user-contacts--items--avatar">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
-              </div>
-              <span class="user-contacts--items--name">Aria Stark</span>
+      <div class="chat-and-input">
+        <section class="chat">
+          <div class="message-received">
+            <div class="message-received--header">
+              <span class="message-received--header--name"
+                ><strong>Aria Stark</strong></span
+              >
             </div>
-          </li>
-          <li>
-            <div class="user-contacts--items">
-              <div class="user-contacts--items--avatar">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <div class="message-received-footer">
+              <div class="information-of-message">
+                <span class="time-message">09:31</span>
+                <span class="date-message">(16-09-20)</span>
               </div>
-              <span class="user-contacts--items--name">Aria Stark</span>
             </div>
-          </li>
-          <li>
-            <div class="user-contacts--items">
-              <div class="user-contacts--items--avatar">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
+          </div>
+          <div class="message-sent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="message-sent-footer">
+              <div class="information-of-message">
+                <span class="time-message">09:42</span>
+                <span class="date-message">(16-09-20)</span>
               </div>
-              <span class="user-contacts--items--name">Aria Stark</span>
             </div>
-          </li>
-          <li>
-            <div class="user-contacts--items">
-              <div class="user-contacts--items--avatar">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
+          </div>
+
+          <!-- more message -->
+
+          <div class="message-received">
+            <div class="message-received--header">
+              <span class="message-received--header--name"
+                ><strong>Aria Stark</strong></span
+              >
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <div class="message-received-footer">
+              <div class="information-of-message">
+                <span class="time-message">09:31</span>
+                <span class="date-message">(16-09-20)</span>
               </div>
-              <span class="user-contacts--items--name">Aria Stark</span>
             </div>
-          </li><li>
-            <div class="user-contacts--items">
-              <div class="user-contacts--items--avatar">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
+          </div>
+          <div class="message-sent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="message-sent-footer">
+              <div class="information-of-message">
+                <span class="time-message">09:42</span>
+                <span class="date-message">(16-09-20)</span>
               </div>
-              <span class="user-contacts--items--name">Aria Stark</span>
             </div>
-          </li>
-        </ul>
-      </nav>  
+          </div>
+
+          <!-- end more message -->
+        </section>
+        <section class="input">
+          <form>
+            <input
+              class="textInputArea"
+              type="text"
+              name="message"
+              placeholder=" Write your message"
+            />
+            <button type="submit" class="searchButton">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+              >
+                <path
+                  d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+        </section>
+      </div>
     </div>
-    <div class="chat-and-input">
-      <section class="chat">
-         <div class="message-received">
-          <div class="message-received--sender">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
-                <span class="message-received--sender--name">Aria Stark</span>
-            </div>  
-          <div class="message-received-header">
-            <div class="information-of-message">
-              <span class="date-message">16-09-20</span>
-              <span class="time-message">09:31</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
-        </div>
-        <div class="message-sent">
-          <div class="message-sent-header">
-            <span class="message-sent-header-name">Me:</span>
-            <div class="information-of-message">
-              <span class="date-message">16-09-20</span>
-              <span class="time-message">09:42</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-            </p>
-        </div>
-        <div class="message-received">
-          <div class="message-received--sender">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
-                <span class="sender-name">Aria Stark</span>
-            </div>  
-          <div class="message-received-header">
-            <div class="information-of-message">
-              <span class="dateMessage">16-09-20</span>
-              <span class="timeMessage">09:31</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
-        </div>
-
-
-  <!-- more messages  -->
-        <div class="message-sent">
-          <div class="message-sent-header">
-            <span class="message-sent-header-name">Me:</span>
-            <div class="information-of-message">
-              <span class="date-message">16-09-20</span>
-              <span class="time-message">09:42</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-            </p>
-        </div> 
-
-  <div class="message-received">
-          <div class="message-received--sender">
-                <img src="https://i.pinimg.com/originals/fd/29/9c/fd299c3743a9679df23f110daf575ee4.jpg" alt="Contact avatar"/>
-                <span class="message-received--sender--name">Aria Stark</span>
-            </div>  
-          <div class="message-received-header">
-            <div class="information-of-message">
-              <span class="date-message">16-09-20</span>
-              <span class="time-message">09:31</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
-        </div>
-        <div class="message-sent">
-          <div class="message-sent-header">
-            <span class="message-sent-header-name">Me:</span>
-            <div class="information-of-message">
-              <span class="date-message">16-09-20</span>
-              <span class="time-message">09:42</span>
-            </div>
-          </div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-            </p>
-        </div> 
-          
-  <!-- end more message -->
-      </section>
-      <section class="input">
-        <form >
-          <input class="textInputArea" type="text" name=  "message" placeholder=" Write your message" style="font-size: 15px"/>
-          <input class="submitButton" type="submit" value="Send" style="font-size: 15px"/>
-        </form>
-      </section>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
