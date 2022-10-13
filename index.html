@@ -2,7 +2,8 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Chatbot</title>
+    <title>Chatbot</title>``
+    <script src="./js/app.js" defer type='module'></script>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
   <body>
@@ -27,7 +28,7 @@
               style="font-size: 15px"
             />
 
-            <button type="submit" class="searchButton">
+            <button type="submit" class="buttonSearch">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -193,6 +194,7 @@
               </div>
             </div>
           </div>
+          
 
           <!-- more message -->
 
@@ -228,19 +230,34 @@
                 <span class="date-message">(16-09-20)</span>
               </div>
             </div>
+          </div> 
+          <div class="bubble-container">
+            <div class="message-sent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="message-sent-footer">
+                <div class="information-of-message">
+                  <span class="time-message">09:42</span>
+                  <span class="date-message">(16-09-20)</span>
+                </div>
+              </div>
+            </div>
           </div>
+          
 
           <!-- end more message -->
         </section>
         <section class="input">
           <form>
             <input
-              class="textInputArea"
+              class="messageTextInput"
               type="text"
               name="message"
               placeholder=" Write your message"
             />
-            <button type="submit" class="searchButton">
+            <button type="submit" class="buttonMessage">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <g>
                   <path fill="none" d="M0 0h24v24H0z" />
@@ -254,5 +271,9 @@
         </section>
       </div>
     </div>
+    <!-- <script src="js/send/Send.js" defer></script>
+    <script src="js/models/Message.js" defer ></script>
+    <script src="js/templates/MessageBubble.js" defer></script>
+    <script src="js/app.js" defer type="module"></script> -->
   </body>
 </html>
