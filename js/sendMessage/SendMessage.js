@@ -1,14 +1,17 @@
 import { Message } from "../models/Message.js";
-import { MessageBubble } from "../templates/MessageBubble.js";
+import { DisplayMessage } from "../displayMessage/DisplayMessage.js";
+
+
 
 export class SendMessage {
   constructor() {
     this._textInput = document.querySelector(".messageTextInput");
     this._button = document.querySelector(".buttonMessage");
-    this._chat = document.querySelector('.chat-and-input .chat');
   }
 
   sendMessage() {
+    let display = new DisplayMessage();
+
     this._button.addEventListener("click", (e) => {
       e.preventDefault();
       let messageContent = this._textInput.value;
@@ -26,9 +29,8 @@ export class SendMessage {
               day : date,
             },
         });
-        let newMessage = new MessageBubble(messageSent);
-        let messageHtml = newMessage.buildMessage();
-        this._chat.appendChild(messageHtml);
+        display.addMessage(messageSent);
+        this._textInput.value = "";
       }
       
     });

@@ -201,9 +201,15 @@ body {
 .message-sent {
   padding: 10px;
   margin: 10px;
-  width: 40%;
-  border-radius: 20px 20px;
+  max-width: 60%;
   background: lightgrey;
+}
+
+.message-received{
+  border-radius: 20px 20px 20px 0px;
+}
+.message-sent{
+  border-radius: 20px 20px 0px 20px ;
 }
 
 .message-received--header {
